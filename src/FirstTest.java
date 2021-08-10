@@ -5,5 +5,6 @@ public class FirstTest {
         
         String str = "GitHub";
         String str1 = "Test2";
+        String str2 = "Test3";
     }
 }
