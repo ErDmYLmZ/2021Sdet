@@ -4,5 +4,6 @@ public class FirstTest {
     System.out.println("Never give up!");
         
         String str = "GitHub";
+        String str1 = "Test2";
     }
 }
