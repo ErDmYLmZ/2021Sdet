@@ -2,13 +2,16 @@ import com.sun.jdi.connect.spi.Connection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Stream;
 
 public class FirstTest {
 
     public static void main(String[] args) {
         System.out.println("Never give up!");
-
+        List<String>aaa = new ArrayList<>();
+        aaa.add("aaa,sss,ddd");
+        System.out.println(aaa);
         String str = "GitHub";
         String str1 = "Test2";
         String str2 = "Test3";
@@ -25,5 +28,13 @@ public class FirstTest {
         System.out.println(Arrays.toString(arr));
         System.out.println(arrayList);
         System.out.println(arrayList.get(0));
+
+
+        int a = 10;
+        String b = "Televizy";
+
+        String c =Integer.toString(a);
+        System.out.println(b+c);
+        
     }
 }
